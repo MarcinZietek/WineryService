@@ -7,6 +7,9 @@ import pl.mz.winery_service.model.WineDto;
 
 import java.util.UUID;
 
+/**
+ * Created by mz on 23.07.22
+ */
 @RequestMapping("/api/v1/wine")
 @RestController
 public class WineController {
