@@ -1,3 +1,0 @@
-#WineryService
-
-Spring Boot Microservice
