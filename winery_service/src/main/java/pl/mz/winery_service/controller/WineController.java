@@ -25,7 +25,7 @@ public class WineController {
     }
 
     @PutMapping({"/{wineId}"})
-    public ResponseEntity updateWineId(@PathVariable("wineId") UUID wineId, RequestBody wineDto){
+    public ResponseEntity updateWineId(@PathVariable("wineId") UUID wineId, @RequestBody WineDto wineDto){
         return new ResponseEntity(HttpStatus.NO_CONTENT);
     }
 }
