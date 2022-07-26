@@ -1,4 +1,4 @@
-package pl.mz.winery_service.domain;
+package pl.mz.winery_service.entities;
 
 import lombok.*;
 import org.hibernate.annotations.CreationTimestamp;
